@@ -54,6 +54,7 @@ class _LoginState extends State<Login> {
                     cursorColor: Colors.white,
                     decoration: InputDecoration(
                       prefixIcon: Icon(Icons.email),
+                      prefixIconColor: Colors.white,
                       hintText: "E-mail",
                       hintStyle: TextStyle(color: Colors.white),
                       enabledBorder: UnderlineInputBorder(
